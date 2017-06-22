@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <router-link to="newBook">Neu</router-link>
+    <router-link to="bookList">Liste</router-link>
     <router-view></router-view>
   </div>
 </template>
